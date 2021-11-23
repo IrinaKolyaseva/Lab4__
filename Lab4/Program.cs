@@ -10,11 +10,13 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
+         
+            for (int N = 1; N > 0; N++)
             {
-                Console.WriteLine("Квадрат числа {0} равен {1}", i, i * i);
+                Console.WriteLine("Квадрат числа {0} равен {1}", N, Math.Pow(N ,2));
             }
             Console.ReadKey();
+
 
         }
     }
