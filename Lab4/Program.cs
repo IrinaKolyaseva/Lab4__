@@ -16,8 +16,6 @@ namespace Lab4
                 Console.WriteLine("Квадрат числа {0} равен {1}", N, Math.Pow(N ,2));
             }
             Console.ReadKey();
-
-
         }
     }
 }
